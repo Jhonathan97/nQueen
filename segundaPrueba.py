@@ -18,7 +18,8 @@ def disponibles(y,n,columna,diagonal_izquierda,diagonal_derecha):
     return columnas_dsiponibles
 
 #metodo que realiza el recorrido en las difernetes listas  y me retorna 
-#una lissta con las tuplas de una posible solucion
+#una lista con las tuplas de una posible solucion
+#basado en vegas
 def nReinasVegas(n):
     solucion=[]
     while(len(solucion)!=n and n>3):
